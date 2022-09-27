@@ -1,0 +1,374 @@
+:root {
+  --primary: #00baf2;
+  --secondary: #1889d4;
+  --text-color: #fff;
+  --text-secondary: #000;
+  --text-tertiary: #5d5d5d;
+}
+
+* {
+  font-family: "Montserrat";
+  margin: 0;
+  padding: 0;
+}
+#PlayStationn {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("fotos/sony-sony-sony.gif");
+  background-position: center;
+  background-size: cover;
+  height: 70vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: var(--text-color);
+}
+
+#textplay h2,
+#textplay .play123 {
+  color: var(--primary);
+}
+
+#textplay h2 {
+  font-size: 3em;
+  margin-bottom: 1em;
+}
+
+#textplay .plays {
+  font-size: 2em;
+  text-transform: uppercase;
+  max-width: 350px;
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+
+#textplay p {
+  font-size: 1.2em;
+  margin-bottom: 0.3em;
+}
+
+#textplay .play123 {
+  font-weight: bold;
+}
+
+#textplays-form {
+  background-color: var(--secondary);
+  padding: 2em;
+  max-width: 22%;
+}
+
+#textplays-form p {
+  font-size: 1.5em;
+  color: var(--text-secondary);
+  margin-bottom: 1em;
+}
+
+.textplays-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.8em;
+}
+
+.textplays-group label {
+  color: var(--text-tertiary);
+  margin-bottom: 0.3em;
+  font-weight: bold;
+}
+
+.textplays-group input,
+.textplays-group select {
+  padding: 6px 8px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+.btn {
+  background-color: var(--primary);
+  color: var(--text-color);
+  text-transform: uppercase;
+  width: 100%;
+  padding: 12px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+#playshs h2 {
+  background-color: var(--secondary);
+  text-align: center;
+  padding: 2em;
+  font-weight: 500;
+}
+
+.conteudos {
+  display: flex;
+  justify-content: space-around;
+  padding: 4em;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.conteudo {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 20%;
+  color: var(--text-tertiary);
+}
+
+.conteudo .conteudo-img {
+  width: 250px;
+  height: 250px;
+  border-radius: 25%;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 1em;
+}
+
+#conteudo-1 {
+  background-image: url("fotos/play1.webp");
+}
+
+#conteudo-2 {
+  background-image: url("fotos/play2.jpg");
+}
+
+#conteudo-3 {
+  background-image: url("fotos/play3.jpeg");
+}
+
+#playst {
+  height: 300px;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("fotos/playstation-sony-interactive-entertainment.gif");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: var(--text-color);
+  margin-bottom: 3em;
+}
+
+#psps,
+#psp-psvita {
+  max-width: 30%;
+}
+
+#psps {
+  display: flex;
+}
+
+#psps i {
+  color: var(--primary);
+  font-size: 4em;
+  margin-right: 0.5em;
+}
+
+#psps-playss {
+  text-align: center;
+  font-size: 1.3em;
+}
+
+#psp-psvita h3 {
+  color: var(--primary);
+  font-size: 2.5em;
+  margin-bottom: 1em;
+  text-transform: uppercase;
+}
+
+#psp-psvita p {
+  line-height: 1.5em;
+}
+
+#playss {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.playss {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 5%;
+  margin-bottom: 4em;
+}
+
+.playss img {
+  width: 50%;
+}
+
+.playss h3 {
+  margin-bottom: 1em;
+  font-size: 2em;
+  font-weight: 500;
+}
+
+#playss-1 h3 {
+  font-size: 3em;
+  font-weight: 700;
+}
+
+.playss-description {
+  width: 100%;
+  padding-left: 2em;
+}
+
+#playss-3 .playss-description {
+  justify-self: flex-start;
+}
+
+.playss-description ul {
+  list-style-position: inside;
+}
+
+.playss-description ul li {
+  margin-bottom: 0.4em;
+}
+
+.playss-description ul li:last-child {
+  font-weight: bold;
+}
+#pla {
+  height: 170px;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("fotos/cara.gif");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: var(--text-color);
+}
+
+#pla h3 {
+  margin-bottom: 1.2em;
+  font-size: 2em;
+  font-weight: 500;
+}
+
+#pla .btn {
+  width: 30%;
+  margin: 0 auto;
+  font-weight: 600;
+  font-size: 1.2em;
+}
+
+#footer {
+  text-align: center;
+  color: var(--secondary);
+  height: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#footer h3 {
+  font-size: 1.8em;
+  margin-bottom: 0.5em;
+}
+
+#footer p:nth-child(2) {
+  margin-bottom: 1em;
+  font-size: 1.2em;
+}
+
+#footer span {
+  font-weight: bold;
+}
+
+@media (max-width: 450px) {
+  #PlayStationn {
+    flex-direction: column;
+    height: auto;
+  }
+
+  #textplay {
+    padding: 2em;
+  }
+
+  #textplay h2 {
+    margin-bottom: 0.5em;
+  }
+
+  #textplay-form {
+    max-width: 70%;
+    margin-bottom: 2em;
+  }
+  .conteudos {
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    padding: 2em;
+  }
+
+  .conteudo {
+    max-width: 100%;
+    margin-bottom: 2em;
+  }
+
+  #playst {
+    flex-direction: column;
+    height: auto;
+    text-align: center;
+    padding: 2em 0;
+  }
+
+  #psps {
+    order: 2;
+    flex-direction: column;
+    max-width: 100%;
+  }
+
+  #psps i {
+    margin: 0.3em 0;
+  }
+
+  #psp-psvita{
+    order: 1;
+    max-width: 100%;
+  }
+
+  #psp-psvita h3 {
+    margin-bottom: 0;
+  }
+
+  #psp-psvita p {
+    display: none;
+  }
+  .playss {
+    flex-direction: column;
+    margin-bottom: 0.5em;
+    gap: 0;
+  }
+
+  .playss img {
+    width: 100%;
+    margin: 2em 0;
+  }
+
+  #playss-1 img {
+    display: none;
+  }
+
+  .playss-description {
+    padding: 0;
+  }
+
+  #playss-3 img {
+    order: 2;
+  }
+
+  #playss-3 .playss-description {
+    order: 1;
+  }
+  #pla .btn {
+    width: 80%;
+  }
+}
